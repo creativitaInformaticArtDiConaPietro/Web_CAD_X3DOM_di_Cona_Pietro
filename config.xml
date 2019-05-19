@@ -10,7 +10,7 @@
   <name>Web CAD X3DOM di Cona Pietro</name>
 
   <description>
-      Web CAD X3DOM di Cona Pietro
+      Web CAD X3DOM di Cona Pietro<br/><br/>
       
       http://creativitainformaticart.altervista.org
   </description>
@@ -18,5 +18,7 @@
   <author href="http://creativitainformaticart.altervista.org" email="pietro.72.prog@gmail.com">
       Cona Pietro
   </author>
+
+  <icon src="qcad_icon.png" />
 
 </widget>
