@@ -116,8 +116,8 @@ function touchstart(event){
     pos_att_ass_z = parseFloat(camp_spost_vista.split(" ")[2]);
     }*/
   if(num_dita==3){
-    //Zum vista tramite spostamento in x
-    info_x3dom_riga.innerHTML = "Zum vista tramite spostamento in x<br>";
+    //Zoom vista tramite spostamento in x
+    info_x3dom_riga.innerHTML = "Zoom vista tramite spostamento in x<br>";
     id_spost_scal_vista = document.getElementById("spost_scal_vista");
     camp_scal_vista = id_spost_scal_vista.getAttribute("scale");
     scal_att_ass_x = parseFloat(camp_scal_vista.split(" ")[0]);
@@ -176,8 +176,8 @@ function touchmove(event){
     id_spost_scal_vista.setAttribute("translation",pos_att_ass_x+" "+pos_att_ass_y+" "+pos_nuov_ass_z);
     }*/
   if(num_dita==3){
-    //Zum vista tramite spostamento in x
-    info_x3dom_riga.innerHTML = "Zum vista tramite spostamento in x<br>"+
+    //Zoom vista tramite spostamento in x
+    info_x3dom_riga.innerHTML = "Zoom vista tramite spostamento in x<br>"+
       "numero di dita utilizzate = "+num_dita+"<br>";
     scal_nuov_ass_x = scal_att_ass_x+spost_x/pix_unit_spost_rad;
     scal_nuov_ass_y = scal_att_ass_y+spost_x/pix_unit_spost_rad;
@@ -239,8 +239,8 @@ function mousedown(event){
   if (event.button == 1){
       buttonMouse = 1;
       console.log("Hai cliccato con il pulsante centrale");
-      //Zum vista tramite spostamento in x
-      info_x3dom_riga.innerHTML = "Inizio Zum vista tramite spostamento in x<br>"+
+      //Zoom vista tramite spostamento in x
+      info_x3dom_riga.innerHTML = "Inizio Zoom vista tramite spostamento in x<br>"+
         "event.button = "+event.button+"<br>"+
         "posx = "+posx+" ,posy = "+posy+"<br>";
     id_spost_scal_vista = document.getElementById("spost_scal_vista");
@@ -310,8 +310,8 @@ function mousemove(event){
       id_rota_vista_y.setAttribute("rotation","0 1 0 "+nuov_rad_ass_y);//rotazione attorno all'asse y
       }
     if(buttonMouse == 1){
-      //Zum vista tramite spostamento in x
-      info_x3dom_riga.innerHTML = "Zum vista tramite spostamento in x<br>"+
+      //Zoom vista tramite spostamento in x
+      info_x3dom_riga.innerHTML = "Zoom vista tramite spostamento in x<br>"+
         "event.button = "+event.button+"<br>"+
         "posx = "+posx+" ,posy = "+posy+"<br>"+
         "spost_x = "+spost_x+" ,spost_y = "+spost_y+"<br>";
